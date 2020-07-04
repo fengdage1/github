@@ -1,0 +1,4 @@
+#子文件夹含有.git导致其无法被跟踪push
+git rm --cached folder
+git add folder
+其中 folder 为子文件夹
